@@ -48,14 +48,25 @@ body {
 
 .w3-green, .w3-hover-green:hover {
     color:  white !important;
-    background-color: #538cc6 !important;
+    background-color: rgb(60, 94, 188) !important;
     margin-left: 56px;
 
 }
+.card {
+  box-shadow: 0 -4px 20px 0 rgba(0,0,0,0.2);
+  transition: 0.3s;
+  width: 20%;
+  margin-left: 72%;
+  padding-bottom: 10px;
+}
 
+.card:hover {
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
 
-
-
+.container {
+  padding: 2px 16px;
+}
 .flex-container {
         display: -webkit-flex;
         display: flex;

@@ -11,12 +11,12 @@ export class AppComponent {
   selectedpokemon:any;
 
   onPokemonDetail(pokemon) {
-    this.selectedpokemon=pokemon;
+    this.selectedpokemon = pokemon;
     this.isdetails = true;
 
   }
 
-  onHome(){
-    this.isdetails=false;
+  onHome() {
+    this.isdetails = false;
   }
 }
