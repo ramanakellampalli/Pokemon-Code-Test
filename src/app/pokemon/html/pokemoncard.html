@@ -1,12 +1,12 @@
 <div class="w3-card-4" style="width:30%;display:inline-block;background: white;margin: 20px;">
     <header class="w3-container w3-blue">
-        <h1>{{pokemon?.name}}</h1>
+        <h1 class="text">{{pokemon?.name}}</h1>
     </header>
 
     <div class="w3-container">
         <img [src]="pokemonDetailObj.sprites.back_default" alt="pokemon" >
       <div class="pokemon-det">
-        <div>Name: {{pokemon?.name}}</div>
+        <div class="text">Name: {{pokemon?.name}}</div>
         <div *ngIf="isLoading" class="loader-small"></div>
         <div>height: {{height}}</div>
         <div>weight: {{weight}}</div>

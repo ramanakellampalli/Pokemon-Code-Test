@@ -67,6 +67,25 @@ body {
 .container {
   padding: 2px 16px;
 }
+.text {
+  text-transform: capitalize;
+}
+
+.details-card {
+  border: none;
+  outline: 0;
+  display: inline-block;
+  padding: 5px;
+  color: white;
+  background: #778899;
+  text-align: center;
+  cursor: pointer;
+  width: 95%;
+  font-size: 14px;
+  color: black;
+  text-transform: capitalize;
+}
+
 .flex-container {
         display: -webkit-flex;
         display: flex;
