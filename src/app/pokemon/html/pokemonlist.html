@@ -1,0 +1,7 @@
+<div>
+    <h1>POKEMON LIST</h1>
+    <div >
+        <div *ngIf="isLoading" class="loader"></div>
+        <pokemon-card [pokemon]="pokemon" (pokemondetail)="pokemondetails($event)" *ngFor="let pokemon of pokemonList"></pokemon-card>
+    </div>
+</div>

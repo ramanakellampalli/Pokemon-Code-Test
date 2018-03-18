@@ -1,0 +1,124 @@
+/* You can add global styles to this file, and also import other style files */
+body {
+    background-color: #f1f1f1;
+}
+
+.pokemon-card {
+    box-shadow: 0 4px 10px 0 rgba(0,0,0,0.2),0 4px 20px 0 rgba(0,0,0,0.19);
+
+}
+.w3-blue, .w3-hover-blue:hover {
+    color: #fff !important;
+    background-color: #778899 !important;
+}
+.blue-gray {
+  background-color: #333;
+}
+
+.w3-container, .w3-panel {
+    padding: 0.01em 16px;
+    margin: 10px;
+}
+
+.w3-footer, .w3-panel {
+    padding: 0.01em 16px;
+    margin: 10px;
+}
+
+.pokemon-det {
+  float: right;
+  margin-right: 30%;
+  padding-top: 10px;
+}
+
+.w3-btn {
+    border: none;
+    display: inline-block;
+    padding: 8px 16px;
+    vertical-align: middle;
+    overflow: hidden;
+    text-decoration: none;
+    color: inherit;
+    background-color: inherit;
+    text-align: center;
+    cursor: pointer;
+    white-space: nowrap;
+    border-radius: 12px;
+}
+
+.w3-green, .w3-hover-green:hover {
+    color:  white !important;
+    background-color: #538cc6 !important;
+    margin-left: 56px;
+
+}
+
+
+
+
+.flex-container {
+        display: -webkit-flex;
+        display: flex;
+        -webkit-flex-flow: row wrap;
+        flex-flow: row wrap;
+        text-align: center;
+    }
+
+    .flex-container > * {
+        padding: 15px;
+        -webkit-flex: 1 100%;
+        flex: 1 100%;
+    }
+
+    .article {
+        text-align: left;
+    }
+
+    .nav {background:#eee;}
+
+    .nav ul {
+        list-style-type: none;
+        padding: 0;
+    }
+    .nav ul a {
+        text-decoration: none;
+    }
+
+    @media all and (min-width: 768px) {
+        .nav {text-align:left;-webkit-flex: 1 auto;flex:1 auto;-webkit-order:1;order:1;}
+        .article {-webkit-flex:5 0px;flex:5 0px;-webkit-order:2;order:2;}
+        footer {-webkit-order:3;order:3;}
+    }
+
+
+    .loader-small {
+        border: 16px solid #f3f3f3;
+        border-radius: 50%;
+        border-top: 16px solid #3498db;
+        width: 50px;
+        height: 50px;
+        -webkit-animation: spin 2s linear infinite; /* Safari */
+        animation: spin 2s linear infinite;
+      }
+
+
+    .loader {
+        border: 16px solid #f3f3f3;
+        border-radius: 50%;
+        border-top: 16px solid #3498db;
+        width: 120px;
+        height: 120px;
+        -webkit-animation: spin 2s linear infinite; /* Safari */
+        animation: spin 2s linear infinite;
+      }
+
+      /* Safari */
+      @-webkit-keyframes spin {
+        0% { -webkit-transform: rotate(0deg); }
+        100% { -webkit-transform: rotate(360deg); }
+      }
+
+      @keyframes spin {
+        0% { transform: rotate(0deg); }
+        100% { transform: rotate(360deg); }
+      }

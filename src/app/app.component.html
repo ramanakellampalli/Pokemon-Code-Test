@@ -1,0 +1,11 @@
+<ul>
+  <li><a class="active" (click)="onHome()">Home</a></li>
+  <li><a href="#about">About</a></li>
+</ul>
+<pokemon-list (pokemondetail)="onPokemonDetail($event)" [hidden]="isdetails"></pokemon-list>
+
+<pokemon-details [pokemon]="selectedpokemon" *ngIf="isdetails"></pokemon-details>
+
+<footer class="w3-footer blue-gray">
+  <p class="footer-p">Year: 2018</p>
+</footer>
